@@ -1,4 +1,5 @@
 import { handleCreatePostSubmission } from "@/app/actions";
+import SubmitButton from "@/components/general/submit-button";
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -35,7 +36,7 @@ export default function CreateRoute() {
                 <Input name="imageUrl" required type="url" placeholder="Image URL" />
               </div>
 
-              <Button>Create Post</Button>
+              <SubmitButton/>
             </form>
           </CardContent>
         </CardHeader>
